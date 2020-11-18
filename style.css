@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+body {
+	margin:0;
+    overflow-x:hidden;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+a {
+    color:black;
+    background-color: rgba(255, 218, 3, 0.4);
+    text-decoration:none;
+    transition:0.5s;
+}
+
+a:hover {
+    color:lightslategray;
+    text-decoration:none;
+    transition:0.5s;
+}
+
+li {
+    padding-top:8px;
+    padding-bottom:8px;
+    list-style: none;
+    font-size:17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+}
+
+#links {
+    text-align:center;
+    font-size:26px;
+    margin-top:8vh;
+    width:40vw;
+    margin-left:30vw;
+    margin-right:30vw;
+    position:absolute;
+    padding:24px;
+}
+
+#box {
+    margin-top:20vh;
+    width:50vw;
+    height:33vw;
+    margin-left:25vw;
+    margin-right:25vw;
+    position:absolute;
+    padding:24px;
+    overflow:auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+}
+
+#about {
+    display:block;
+}
+
+#experience {
+    display:none;
+}
+
+#teaching {
+    display:none;
+}
+
+.top-link {
+    padding-left:12px;
+    padding-right:12px;
+    transition:0.5s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-link:hover {
+    cursor: pointer;
+    color:dimgray;
+    transition:0.5s;
+}
+
+.top-link-active {
+    text-decoration: underline;
+    transition:0.5s;
+}
+
+.inner-image {
+    float: left;
+}
+
+.image {
+    width:42%;
+    vertical-align:left;
+    float:left;
+    padding-right:36px;
+}
+
+.inner-text {
+    font-size:15px;
+}
+
+.smaller-text {
+    font-size:15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+}
+
+.internal-header {
+    font-size:17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.teenybubs {
+	transition:1s;
+}
+
+.bottom-links {
+    text-align:center;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: darkgray; 
+	border-radius:4px;
+	transition:1s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: lightgray;
+	transition:1s;
+}
