@@ -28,7 +28,7 @@ $(document).ready(function() {
 });
 
 
-// @SOURCE mozilla libraries!!
+// @SOURCE mozilla libraries
 function getRandomInt(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
