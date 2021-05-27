@@ -21,7 +21,7 @@ $(document).ready(function() {
 		$(".top-link-active").removeClass("top-link-active");
 		$(elem).addClass("top-link-active");
 		box_elem = "#" + elem.innerText
-		const box_sections = ["#about", "#experience", "#research"];
+		const box_sections = ["#about", "#experience", "#research", "#references"];
 		box_sections.forEach((section) => $(section).hide());
 		$(box_elem).show();
 	});

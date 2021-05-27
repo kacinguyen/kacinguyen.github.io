@@ -74,6 +74,10 @@ li {
     display:none;
 }
 
+#references {
+    display:none;
+}
+
 .top-link {
     padding-left:12px;
     padding-right:12px;
