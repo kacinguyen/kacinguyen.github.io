@@ -70,11 +70,7 @@ li {
     display:none;
 }
 
-#research {
-    display:none;
-}
-
-#references {
+#favorites {
     display:none;
 }
 
@@ -127,9 +123,6 @@ li {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-.teenybubs {
-	transition:1s;
-}
 
 .bottom-links {
     text-align:center;
